@@ -20,9 +20,10 @@ public class ObjectDamage : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //tag player
         if (collision.gameObject.tag == "Player")
         {
-            PlayerHealth.TakeDamage(damage);
+            playerHealth.TakeDamage(damage);
         }
     }
 }
