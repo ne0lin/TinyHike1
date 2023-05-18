@@ -8,6 +8,7 @@ public class Climbing : MonoBehaviour
     private float speed = 8f;
     private bool isTree;
     private bool isClimbing;
+    public GameObject Tree;
 
     [SerializeField] private Rigidbody2D rb;
 
@@ -32,7 +33,7 @@ public class Climbing : MonoBehaviour
     {
         if (isClimbing)
         {
-            rb.gravityScale = 0f;
+            rb.gravityScale = -1f;
             rb.velocity = new Vector2(rb.velocity.x, vertical * speed);
         }
         else
@@ -41,17 +42,19 @@ public class Climbing : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (collision.CompareTag("Tree"))
+        if (collision.gameObject.CompareTag("Tree"))
         {
             isTree = true;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+   
+
+    private void OnCollisionExit(Collision collision)
     {
-        if (collision.CompareTag("Tree"))
+        if (collision.gameObject.CompareTag("Tree"))
         {
             isTree = false;
             isClimbing = false;
