@@ -10,6 +10,7 @@ public class Climbing : MonoBehaviour
     private bool isClimbing;
 
     [SerializeField] private Rigidbody2D rb;
+    public Collider2D Tree;
 
     // Start is called before the first frame update
     void Start()
@@ -37,24 +38,25 @@ public class Climbing : MonoBehaviour
         }
         else
         {
-            rb.gravityScale = 4f;
+            rb.gravityScale = 2f;
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.CompareTag("Tree"))
+        if (collision.gameObject.CompareTag("Tree"))
         {
             isTree = true;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.CompareTag("Tree"))
+        if (collision.gameObject.CompareTag("Tree"))
         {
             isTree = false;
             isClimbing = false;
         }
     }
+
 }
