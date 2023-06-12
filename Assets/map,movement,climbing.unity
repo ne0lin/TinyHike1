@@ -120377,6 +120377,7 @@ GameObject:
   - component: {fileID: 2139334159}
   - component: {fileID: 2139334160}
   - component: {fileID: 2139334161}
+  - component: {fileID: 2139334162}
   m_Layer: 0
   m_Name: GoofyGoober
   m_TagString: Untagged
@@ -120526,6 +120527,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 2139334158}
   Tree: {fileID: 144382064}
+--- !u!95 &2139334162
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139334155}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b57c6ce8926d05d4f8b99e809b71e2db, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2144878518
 GameObject:
   m_ObjectHideFlags: 0
