@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c976b5aef7204c948b1ed30de458a7df
+guid: ca273b7f47d5656498f6bc778444946c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,106 +104,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: elf- tiny hike WALKING correwcted animation_0
+      name: elf- tiny hike WALKING ANOTHER CORRECT_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 1
         width: 64
-        height: 66
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 740fe20d287b3804dadc41f43598f5a4
-      internalID: -1900584037
+      spriteID: 9f2f89a1ed820df4f9203d8a426d03b7
+      internalID: 399114500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elf- tiny hike WALKING correwcted animation_1
+      name: elf- tiny hike WALKING ANOTHER CORRECT_1
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
+        y: 1
         width: 64
-        height: 66
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b7ee616d47622b4a9621dc905d6b875
-      internalID: -1230468233
+      spriteID: 8c8f3136aaee67d4d986d4ceee40be92
+      internalID: -930507979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elf- tiny hike WALKING correwcted animation_2
+      name: elf- tiny hike WALKING ANOTHER CORRECT_2
       rect:
         serializedVersion: 2
         x: 128
-        y: 0
+        y: 1
         width: 64
-        height: 66
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4494645f47f53da48840b2bae0ae84cb
-      internalID: 688319974
+      spriteID: df18847067007d741a3b3c9be57bfcbc
+      internalID: -1362690300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elf- tiny hike WALKING correwcted animation_3
+      name: elf- tiny hike WALKING ANOTHER CORRECT_3
       rect:
         serializedVersion: 2
         x: 192
-        y: 0
+        y: 1
         width: 64
-        height: 66
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d89a42d7452bb547993d484117ef3ac
-      internalID: 1326864571
+      spriteID: 5c3a3ebae950b9a4092eee0809372208
+      internalID: -21640777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elf- tiny hike WALKING correwcted animation_4
+      name: elf- tiny hike WALKING ANOTHER CORRECT_4
       rect:
         serializedVersion: 2
         x: 256
-        y: 0
+        y: 1
         width: 64
-        height: 66
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa4c5138cc501f04db1d0b2b5ad3046f
-      internalID: 1425492451
+      spriteID: b9c0fad4f7cd24f44bf8677f3d1d71d8
+      internalID: -125156137
       vertices: []
       indices: 
       edges: []
@@ -219,11 +219,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      elf- tiny hike WALKING correwcted animation_3: 1326864571
-      elf- tiny hike WALKING correwcted animation_0: -1900584037
-      elf- tiny hike WALKING correwcted animation_1: -1230468233
-      elf- tiny hike WALKING correwcted animation_4: 1425492451
-      elf- tiny hike WALKING correwcted animation_2: 688319974
+      elf- tiny hike WALKING ANOTHER CORRECT_2: -1362690300
+      elf- tiny hike WALKING ANOTHER CORRECT_4: -125156137
+      elf- tiny hike WALKING ANOTHER CORRECT_3: -21640777
+      elf- tiny hike WALKING ANOTHER CORRECT_0: 399114500
+      elf- tiny hike WALKING ANOTHER CORRECT_1: -930507979
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
