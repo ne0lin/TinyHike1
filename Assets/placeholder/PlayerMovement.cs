@@ -10,11 +10,12 @@ public class PlayerMovement : MonoBehaviour
     public GameObject fallDetector;
 
     // Start is called before the first frame update
-    private void Start()
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         respawnPoint = transform.position;
     }
+
 
     // Update is called once per frame
     private void Update()
@@ -32,9 +33,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "FallDetector")
+        if (collision.tag == "FallDetector")
         {
             transform.position = respawnPoint;
+        }
+        else if(collision.tag == "Checkpoint")
+        {
+            respawnPoint = transform.position;
         }
     }
 }
