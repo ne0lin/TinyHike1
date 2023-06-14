@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -1451,10 +1451,10 @@ TextureImporter:
       branch_47: -694655224
       branch_48: -1493006914
       branch_10: 1894468600
-      branch_24: 1827794843
       branch_42: -372461144
       branch_0: 465387578
       branch_52: -1514958466
+      branch_24: 1827794843
       branch_4: -1091475053
       branch_44: -1815693325
       branch_12: 1511239434

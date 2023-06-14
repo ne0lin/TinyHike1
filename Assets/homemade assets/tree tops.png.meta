@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -26952,10 +26952,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tree tops_1230: 90968076
-      tree tops_1064: 582976984
-      tree tops_350: -114552567
+      tree tops_565: -2048682327
       tree tops_1101: 1654192938
+      tree tops_350: -114552567
+      tree tops_435: -1859855699
+      tree tops_858: 1914530523
       tree tops_345: 411887166
       tree tops_802: 932978494
       tree tops_486: 700337001
@@ -26964,7 +26965,6 @@ TextureImporter:
       tree tops_1053: 1246686868
       tree tops_1109: 4102224
       tree tops_98: 927414840
-      tree tops_1111: 1992186161
       tree tops_607: -831706465
       tree tops_899: 646722465
       tree tops_639: 1611348847
@@ -26983,26 +26983,26 @@ TextureImporter:
       tree tops_1031: 1707393050
       tree tops_756: 906067782
       tree tops_372: 644826693
-      tree tops_362: -1822658497
-      tree tops_454: 1998129367
-      tree tops_460: 427694976
-      tree tops_612: 1567440899
-      tree tops_668: -505110200
-      tree tops_829: -1392629843
       tree tops_563: -2089276772
-      tree tops_314: -1296498373
-      tree tops_179: 1108053938
+      tree tops_362: -1822658497
+      tree tops_460: 427694976
+      tree tops_454: 1998129367
+      tree tops_612: 1567440899
+      tree tops_829: -1392629843
+      tree tops_1124: -1616181629
+      tree tops_668: -505110200
       tree tops_549: -125014987
+      tree tops_179: 1108053938
       tree tops_185: -885061158
       tree tops_1266: 1729823687
       tree tops_880: 1933469635
-      tree tops_1040: 1192222517
+      tree tops_314: -1296498373
       tree tops_637: 1825138041
       tree tops_249: 1136709233
       tree tops_1132: -1652050864
       tree tops_239: 1540570293
       tree tops_1100: 1968163512
-      tree tops_1124: -1616181629
+      tree tops_1040: 1192222517
       tree tops_5: 2089738134
       tree tops_1193: -1501961940
       tree tops_1277: -657445146
@@ -27034,8 +27034,8 @@ TextureImporter:
       tree tops_719: 546712723
       tree tops_1106: -1335577783
       tree tops_774: -1851798127
-      tree tops_980: -1941469355
       tree tops_1118: 553124192
+      tree tops_980: -1941469355
       tree tops_558: -2131194170
       tree tops_925: -1359655663
       tree tops_187: 65916058
@@ -27105,12 +27105,12 @@ TextureImporter:
       tree tops_1063: -1963967052
       tree tops_283: -210498814
       tree tops_134: 1005812193
-      tree tops_390: -1469985792
       tree tops_416: -718417412
+      tree tops_613: -1020523899
       tree tops_220: 2026081568
       tree tops_258: -1542504171
       tree tops_1080: 591226010
-      tree tops_613: -1020523899
+      tree tops_390: -1469985792
       tree tops_1232: -551426382
       tree tops_744: -235059157
       tree tops_31: -363735441
@@ -27613,41 +27613,41 @@ TextureImporter:
       tree tops_303: 1287209400
       tree tops_1172: -829891770
       tree tops_751: 33509049
-      tree tops_195: 1960180697
-      tree tops_883: 792975294
       tree tops_1139: -1448796770
+      tree tops_883: 792975294
       tree tops_420: 1813389512
       tree tops_603: 2007283844
       tree tops_1104: -1007296695
+      tree tops_195: 1960180697
       tree tops_1199: 1051801376
       tree tops_934: 2085394040
       tree tops_762: 1127439955
-      tree tops_857: 1193718121
       tree tops_1256: 59520522
+      tree tops_1271: 218670318
       tree tops_1057: 389381786
       tree tops_775: -596626147
       tree tops_100: 1963770092
       tree tops_468: 780614428
       tree tops_482: -1554908281
-      tree tops_29: -339479986
-      tree tops_264: 737357422
-      tree tops_791: 695953318
-      tree tops_935: 1645325856
       tree tops_502: -631817586
+      tree tops_29: -339479986
+      tree tops_857: 1193718121
+      tree tops_264: 737357422
+      tree tops_935: 1645325856
+      tree tops_944: -1722952070
       tree tops_730: -212917205
-      tree tops_737: -979119611
+      tree tops_791: 695953318
       tree tops_768: -379522059
-      tree tops_1027: -2065249321
+      tree tops_737: -979119611
       tree tops_1028: -35698670
       tree tops_1038: 1463627102
-      tree tops_944: -1722952070
+      tree tops_1027: -2065249321
       tree tops_1006: 1275676493
       tree tops_605: 341393465
       tree tops_1030: -421268802
       tree tops_105: 259104089
       tree tops_235: 549509114
       tree tops_1007: -539659218
-      tree tops_1271: 218670318
       tree tops_1215: -818019808
       tree tops_78: -2045158855
       tree tops_528: 1200573370
@@ -28219,17 +28219,17 @@ TextureImporter:
       tree tops_278: -1240946961
       tree tops_459: 312107094
       tree tops_13: 436423331
+      tree tops_1111: 1992186161
       tree tops_677: 722543533
       tree tops_349: 61933088
-      tree tops_997: -490682550
       tree tops_467: -2006737610
+      tree tops_997: -490682550
       tree tops_310: 7843508
-      tree tops_565: -2048682327
-      tree tops_242: 435553939
       tree tops_537: 477254912
+      tree tops_242: 435553939
       tree tops_709: 1411390152
-      tree tops_435: -1859855699
-      tree tops_858: 1914530523
+      tree tops_1064: 582976984
+      tree tops_1230: 90968076
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
