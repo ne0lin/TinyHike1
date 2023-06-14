@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -2406,25 +2406,25 @@ TextureImporter:
       start branch_97: 1728350704
       start branch_31: 951893323
       start branch_25: 1672910235
-      start branch_4: 1449790681
       start branch_27: 1714592792
-      start branch_33: 1737312560
-      start branch_94: -423850332
+      start branch_4: 1449790681
       start branch_44: 1941847817
+      start branch_94: -423850332
       start branch_87: -1630412791
-      start branch_104: -1961218372
       start branch_107: -1806807185
       start branch_77: -186385655
       start branch_30: 1614776865
       start branch_60: -1852839939
       start branch_89: 1315302344
       start branch_52: 2000944428
-      start branch_63: -1843843469
       start branch_64: -709249475
+      start branch_104: -1961218372
       start branch_68: 316680137
       start branch_32: -1621893620
       start branch_24: -2050968746
+      start branch_63: -1843843469
       start branch_38: -1072807319
+      start branch_33: 1737312560
       start branch_53: -1862552380
       start branch_93: -555791648
       start branch_99: 181488804

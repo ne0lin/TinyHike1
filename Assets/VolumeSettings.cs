@@ -21,6 +21,7 @@ public class VolumeSettings : MonoBehaviour
         }
 
         SetMusicVolume();
+        SetSFXVolume();
     }
     public void SetMusicVolume()
     {

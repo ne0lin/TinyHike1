@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -4017,9 +4017,9 @@ TextureImporter:
       tree start_15: 2066263966
       tree start_81: -1175536461
       tree start_49: -1052927420
+      tree start_79: 1742311758
       tree start_12: 875470061
       tree start_172: 1291839848
-      tree start_79: 1742311758
       tree start_118: -294110785
       tree start_3: -666916827
       tree start_14: -536757961
@@ -4080,8 +4080,8 @@ TextureImporter:
       tree start_181: -113195531
       tree start_32: 842257473
       tree start_166: 145322866
-      tree start_95: -830700661
       tree start_34: 720833496
+      tree start_95: -830700661
       tree start_50: 847381139
       tree start_158: 1888200831
       tree start_80: -73656803
