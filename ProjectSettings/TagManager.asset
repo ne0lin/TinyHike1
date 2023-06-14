@@ -8,6 +8,7 @@ TagManager:
   - FallDetector
   - Rock
   - Checkpoint
+  - End
   layers:
   - Default
   - TransparentFX
