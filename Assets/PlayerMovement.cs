@@ -5,93 +5,82 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
-   // private Animator anim;
+    private Animator anim;
+    private float dirX =0f;
+    private SpriteRenderer sprite;
+
     private Vector3 respawnPoint;
     public GameObject fallDetector;
 
-    public int playerSpeed = 5;
-    public float jumpPower;
-    private JumpingController currentJumpState;
+    [SerializeField] private float speed = 5f;
+    [SerializeField] private float jumpForce = 12f;
 
 
+    private enum MovementSate { idle, walking, jumping}
     
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         respawnPoint = transform.position;
-      //  anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
-    private void FixedUpdate()
-    {
-        rb.MovePosition(transform.position + new Vector3(Input.GetAxis("Horizontal"), 0f,
-        Input.GetAxis("Vertical")) * Time.fixedDeltaTime * playerSpeed);
-    }
 
-   
+
+
     private void Update()
-    {
+    { 
+        if (Input.GetButtonDown ("Jump"))
         {
-            if (Input.GetKeyDown(KeyCode.Space) && currentJumpState != JumpingController.DoubleJump)
-                Jump();
+            GetComponent<Rigidbody2D>().velocity= new Vector2(rb.velocity.x, jumpForce);
         }
+        dirX = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(dirX * speed, rb.velocity.y);
 
         fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
 
-        //if (dirX > 0)
-        //{
-        //    anim.SetBool("running", true);
-        // }
-        //  else if (dirX < 0) 
-        // {
-        //    anim.SetBool("running", true);
-        //  }
-        //  else
-        //  {
-        //    anim.SetBool("running",false)
-        //   }
+        UpdateAnimationState();
     }
 
-    private void Jump()
+    private void UpdateAnimationState()
     {
-        rb.AddForce(new Vector3(0f, jumpPower, 0f), ForceMode2D.Impulse);
 
+        MovementSate state;
 
-
-        switch (currentJumpState)
+        if (dirX > 0)
         {
-            case JumpingController.Ground:
-                currentJumpState = JumpingController.FirstJump;
-                break;
-            case JumpingController.FirstJump:
-                currentJumpState = JumpingController.DoubleJump;
-                break;
-            case JumpingController.DoubleJump:
-                break;
-            default:
-                break;
+            state = MovementSate.walking;
+            sprite.flipX = false;
         }
+        else if (dirX < 0)
+        {
+            state = MovementSate.walking;
+            sprite.flipX = true;
+        }
+        else
+        {
+            state =MovementSate.idle;
+        }
+
+        if (rb.velocity.y > 1f)
+        {
+            state = MovementSate.jumping;
+        }
+
+        anim.SetInteger("state", (int) state);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
-            currentJumpState = JumpingController.Ground;
-    }
-
-private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.tag == "FallDetector")
+        if (collision.tag == "FallDetector")
         {
             transform.position = respawnPoint;
         }
     }
 }
 
-enum JumpingController
-{
-    Ground = 0,
-    FirstJump = 1,
-    DoubleJump = 2,
 
-}
+

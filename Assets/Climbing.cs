@@ -8,6 +8,7 @@ public class Climbing : MonoBehaviour
     private float speed = 8f;
     private bool isTree;
     private bool isClimbing;
+    private Animator anim;
 
     [SerializeField] private Rigidbody2D rb;
     public Collider2D Tree;
@@ -15,7 +16,7 @@ public class Climbing : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -26,6 +27,15 @@ public class Climbing : MonoBehaviour
         if (isTree && Mathf.Abs(vertical) > 0)
         {
             isClimbing = true;
+        }
+
+        if (isClimbing)
+        {
+            anim.SetBool("climbing",true);
+        }
+        else
+        {
+            anim.SetBool("climbing", false);
         }
     }
 
@@ -47,6 +57,7 @@ public class Climbing : MonoBehaviour
         if (collision.gameObject.CompareTag("Tree"))
         {
             isTree = true;
+            
         }
     }
 
@@ -59,4 +70,7 @@ public class Climbing : MonoBehaviour
         }
     }
 
+  
+        
+ 
 }
