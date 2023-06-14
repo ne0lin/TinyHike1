@@ -13435,7 +13435,7 @@ GameObject:
   - component: {fileID: 210500371}
   m_Layer: 0
   m_Name: bush_2 (4)
-  m_TagString: Untagged
+  m_TagString: FallDetector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53053,7 +53053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myMixer: {fileID: 24100000, guid: cd65048e1aab8bc4290fbdf854c804dc, type: 2}
   musicSlider: {fileID: 270747113}
-  SFXSlider: {fileID: 0}
+  SFXSlider: {fileID: 1483389293}
 --- !u!1001 &305816233
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53846,7 +53846,7 @@ GameObject:
   - component: {fileID: 500596949}
   m_Layer: 0
   m_Name: bush_1 (2)
-  m_TagString: Untagged
+  m_TagString: FallDetector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119909,7 +119909,7 @@ GameObject:
   - component: {fileID: 636627526}
   m_Layer: 0
   m_Name: bush_2 (3)
-  m_TagString: Untagged
+  m_TagString: FallDetector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120864,7 +120864,7 @@ GameObject:
   - component: {fileID: 934654773}
   m_Layer: 0
   m_Name: bush_2
-  m_TagString: Untagged
+  m_TagString: FallDetector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122519,7 +122519,7 @@ GameObject:
   - component: {fileID: 1323811340}
   m_Layer: 0
   m_Name: bush_1 (1)
-  m_TagString: Untagged
+  m_TagString: FallDetector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123071,7 +123071,7 @@ GameObject:
   - component: {fileID: 1442141057}
   m_Layer: 0
   m_Name: bush_2 (2)
-  m_TagString: Untagged
+  m_TagString: FallDetector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123737,7 +123737,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -123832,7 +123832,7 @@ GameObject:
   - component: {fileID: 1624479111}
   m_Layer: 0
   m_Name: bush_1 (3)
-  m_TagString: Untagged
+  m_TagString: FallDetector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124176,7 +124176,7 @@ GameObject:
   - component: {fileID: 1681229794}
   m_Layer: 0
   m_Name: bush_2 (1)
-  m_TagString: Untagged
+  m_TagString: FallDetector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124650,7 +124650,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1600942425}
   SFXSource: {fileID: 2100329526}
-  background: {fileID: 8300000, guid: 8b9cb98176c68a2409b2dc72d30e95a3, type: 3}
+  backgroundmusic: {fileID: 8300000, guid: 8b9cb98176c68a2409b2dc72d30e95a3, type: 3}
+  background: {fileID: 8300000, guid: 14d9c9c22860dff42b1b0a0f739a44de, type: 3}
 --- !u!4 &1737421162
 Transform:
   m_ObjectHideFlags: 0
@@ -125656,7 +125657,7 @@ GameObject:
   - component: {fileID: 1879588643}
   m_Layer: 0
   m_Name: bush_1
-  m_TagString: Untagged
+  m_TagString: FallDetector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126375,9 +126376,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -8702816811486747758, guid: cd65048e1aab8bc4290fbdf854c804dc, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.659
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

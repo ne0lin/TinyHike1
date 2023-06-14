@@ -7,17 +7,21 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource SFXSource;
 
     [Header("---------- Audio Clip ----------")]
+    public AudioClip backgroundmusic;
     public AudioClip background;
-    //duplicate and change the names
 
     private void Start()
     {
-        musicSource.clip = background;
+        musicSource.clip = backgroundmusic;
         musicSource.Play();
+
+        SFXSource.clip = background;
+        SFXSource.Play();
+        
     }
 
-    public void PlaySFX(AudioClip clip)
-    {
-        SFXSource.PlayOneShot(clip);
-    }
+    //public void PlaySFX(AudioClip clip)
+    //{
+    //    SFXSource.PlayOneShot(clip);
+    //}
 }
