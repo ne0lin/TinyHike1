@@ -9,6 +9,7 @@ TagManager:
   - Rock
   - Checkpoint
   - Audio
+  - End
   layers:
   - Default
   - TransparentFX
